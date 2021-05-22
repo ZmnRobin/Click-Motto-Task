@@ -9,8 +9,8 @@ import Slider from "react-slick";
 const Header = () => {
 
     const [result,setResult]=useState([])
-
     const handleSearch=(e)=>{
+        e.preventDefault()
         const searchQuery=e.target[0].value;
         const KEY='15674931-a9d714b6e9d654524df198e00&q'
         fetch(`https://pixabay.com/api/?key=${KEY}=${searchQuery}&image_type=photo`)
@@ -81,7 +81,7 @@ const Header = () => {
                         <option value="audi">Appreciated</option>
                     </select>
                 </ul>
-                
+
                 <div className="image-div">
                     <div className="row mt-2">
                         {
