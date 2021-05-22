@@ -1,11 +1,13 @@
-# Getting Started with Create React App
+# Click Motto Image searching application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple version of image search using pixabay API
 
-## Available Scripts
+## For running this project in your pc:
 
-In the project directory, you can run:
+Clone the repository first
+After that,In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
